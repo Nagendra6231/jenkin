@@ -18,6 +18,7 @@ class Testfacebook():
         driver.close()
         driver.quit()
         print("test passed successfully")
+        print("this is the pytest")
     def test_fb_login(self,test_setup):
 
         driver.get("https://www.facebook.com/")
